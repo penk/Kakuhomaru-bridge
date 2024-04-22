@@ -41,13 +41,13 @@ For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately
 
 - Step 1: Glue the Piezoelectric Rods
 
-    Using a utility knife, slit the heat shrink tubing of the under-saddle pickup to extract four segments of piezoelectric ceramics. Position the piezoelectric ceramics with the positive side facing left (G string, bass side) and the side marked as negative facing right (E string, treble side), as shown in the diagram. Secure each end of the piezoelectric ceramics with just a tiny drop of CA glue to ensure they stay in place.
+    Using a utility knife, slit the heat shrink tubing of the under-saddle pickup to extract four segments of piezoelectric ceramics. Position the piezoelectric ceramics with the positive side facing left (G string, bass side) and the side marked as negative facing right (E string, treble side), as shown in the picture below. Secure each end of the piezoelectric ceramics with one drop of CA glue to ensure they stay in place.
 
     ![](./images/kakuhomaru-step-1.jpg)
 
 - Step 2: Solder the Shielded Cable & Insert the Conductive Foam
 
-    Carefully strip back the shielded cable to expose the positive core, and solder it to the designated through-hole for the `positive` connection on the PCB as illustrated. Connect the negative side (the outer braided mesh) to the `GND` (ground). Then, insert conductive foam into the castellated holes, using approximately 5mm cubic pieces.
+    Carefully strip back the shielded cable to expose the positive core, and solder it to the through-hole for the positive connection on the PCB as illustrated. Solder the cable ground (the outer braided mesh) to the `GND` (ground) through-hole. Then, insert conductive foam into the 8 castellated holes, using approximately 5mm cubic pieces.
 
     ![](./images/kakuhomaru-step-2.jpg)
 
@@ -57,7 +57,7 @@ For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately
 
     ![](./images/kakuhomaru-step-3.jpg)
 
-Once the assembly is complete, you may now test the bridge assembly with an amplifier to ensure everything is functioning properly.
+Once the assembly is complete, you may test the bridge assembly with an amplifier to ensure everything is functioning properly.
 
 https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-cf757c91dd27
 

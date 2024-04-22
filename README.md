@@ -2,7 +2,7 @@
 
 ![](images/kakuhomaru-logo.jpg)
 
-The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins featuring a ‘one-sensor-per-string’ design, ensuring each note you play is captured with clarity and richness. 
+The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, featuring a ‘one-sensor-per-string’ design that ensures each note is captured with clarity and richness.
 
 Listen to the open string sample here:
 
@@ -14,10 +14,10 @@ https://github.com/penk/Kakuhomaru-bridge/assets/61878/6f59927d-60b6-4801-80bd-5
 
 Each Kakuhomaru bridge is composed of 4 main parts:
 
-1. Piezoelectric rods and shielded cable (repurposed from a guitar under-saddle pickup) 
-2. Custom printed circuit board (PCB) with castellated holes 
-3. Semi-rigid electronically conductive foam (30 Ohm m) 
-4. 3D printable case
+1. Piezoelectric rods and shielded cable (repurposed from a guitar under-saddle pickup).
+2. Custom printed circuit board (PCB) with castellated holes.
+3. Semi-rigid electronically conductive foam (I'm using [this one](https://www.distrelec.de/en/conductive-foam-305x305x6mm-rnd-rnd-600-00067/p/30130228)).
+4. 3D printable case (available in both [low profile](./case/kakuhomaru-case-lowp.stl) and [high profile](./case/kakuhomaru-case-highp.stl)). 
 
 While some parts may require a few days of lead time, the assembly is straightforward and DIY-friendly once all components are in hand.
 
@@ -25,7 +25,7 @@ While some parts may require a few days of lead time, the assembly is straightfo
 
 To get started with your custom PCB, upload the [production file](./production/kakuhomaru-bridge-gerbers.zip) to the PCB manufacturer of your choice, such as JLCPCB or PCBWay. Please ensure you select the option for `Castellated Holes` — this is vital for the functionality of our bridge pickup.
 
-Below are the settings used for this prototype: 
+Below are the settings I have used for this prototype: 
 
 ```
 PCB Thickness: 1.6 mm 
@@ -35,18 +35,19 @@ Castellated Holes: Yes
 Edges: 2
 ```
 
+For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately $40. This information should help you estimate the budget for your own build.
+
 ## Assembly Instructions 
 
 - Step 1: Glue the Piezoelectric Rods
 
-    Using a utility knife, carefully slit the heat shrink tubing of the under-saddle pickup to extract four segments of piezoelectric ceramics. Position the piezoelectric ceramics with the positive side facing left (G string, bass side) and the side marked as negative facing right (E string, treble side), as shown in the diagram. Secure each end of the piezoelectric ceramics with just a tiny drop of CA glue to ensure they stay in place.
-
+    Using a utility knife, slit the heat shrink tubing of the under-saddle pickup to extract four segments of piezoelectric ceramics. Position the piezoelectric ceramics with the positive side facing left (G string, bass side) and the side marked as negative facing right (E string, treble side), as shown in the diagram. Secure each end of the piezoelectric ceramics with just a tiny drop of CA glue to ensure they stay in place.
 
     ![](./images/kakuhomaru-step-1.jpg)
 
 - Step 2: Solder the Shielded Cable & Insert the Conductive Foam
 
-    Carefully strip back the shielded cable to expose the positive core, and solder it to the designated through-hole for the `positive` connection on the PCB as illustrated. Connect the negative side (the outer braided mesh) to the `GND` (ground). Then, insert conductive foam into the castellated holes, using pieces approximately 5mm x 5mm x 5mm in size.
+    Carefully strip back the shielded cable to expose the positive core, and solder it to the designated through-hole for the `positive` connection on the PCB as illustrated. Connect the negative side (the outer braided mesh) to the `GND` (ground). Then, insert conductive foam into the castellated holes, using approximately 5mm cubic pieces.
 
     ![](./images/kakuhomaru-step-2.jpg)
 
@@ -57,6 +58,8 @@ Edges: 2
     ![](./images/kakuhomaru-step-3.jpg)
 
 Once the assembly is complete, you may now test the bridge assembly with an amplifier to ensure everything is functioning properly.
+
+https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-cf757c91dd27
 
 ## Setting up 
 

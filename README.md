@@ -71,6 +71,8 @@ For the bridge feet, proceed with your usual sanding process to ensure a proper 
 
 ## Further Customization
 
+![](./images/kakuhomaru-customization.jpg)
+
 For those looking to tailor the bridge pickup to different sizes or heights, an [editable STEP file](./case/kakuhomaru-case.step) is available. This file allows you to make precise adjustments to the bridge to perfectly fit your instrument's unique specifications.
 
 Additionally, if your setup requires a pickup for five or more strings, you can take advantage of the [fully editable KiCad project](./kicad). This project includes a [DXF outline](./case/kakuhomaru-PCB-outline.dxf), enabling you to design and customize your PCB to accommodate the specific needs of multi-string electric violins.

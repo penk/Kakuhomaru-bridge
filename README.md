@@ -16,7 +16,7 @@ Each Kakuhomaru bridge is composed of 4 main parts:
 
 1. Piezoelectric rods and shielded cable (repurposed from a guitar under-saddle pickup).
 2. Custom printed circuit board (PCB) with castellated holes.
-3. Semi-rigid electronically conductive foam (I'm using [this one](https://www.distrelec.de/en/conductive-foam-305x305x6mm-rnd-rnd-600-00067/p/30130228)).
+3. Semi-rigid electronically conductive foam (I'm using [this one](https://www.distrelec.de/en/conductive-foam-305x305x6mm-rnd-rnd-600-00067/p/30130228) which has a `30 Ohm m` volume resistance).
 4. 3D printable case (available in both [low profile](./case/kakuhomaru-case-lowp.stl) and [high profile](./case/kakuhomaru-case-highp.stl)). 
 
 While some parts may require a few days of lead time, the assembly is straightforward and DIY-friendly once all components are in hand.

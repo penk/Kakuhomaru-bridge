@@ -4,7 +4,7 @@
 
 The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, featuring a ‘one-sensor-per-string’ design that ensures each note is captured with clarity and richness.
 
-Listen to the open string sample here:
+🔊 Listen to the open string sample here:
 
 https://github.com/penk/Kakuhomaru-bridge/assets/61878/6f59927d-60b6-4801-80bd-5c879a68bae8
 
@@ -41,13 +41,13 @@ For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately
 
 - Step 1: Glue the Piezoelectric Rods
 
-    Using a utility knife, slit the heat shrink tubing of the under-saddle pickup to extract four segments of piezoelectric ceramics. Position the piezoelectric ceramics with the positive side facing left (G string, bass side) and the side marked as negative facing right (E string, treble side), as shown in the picture below. Secure each end of the piezoelectric ceramics with one drop of CA glue to ensure they stay in place.
+    Carefully slice open the heat shrink of the under-saddle pickup with a utility knife to retrieve the piezoelectric ceramics. Position the ceramics with the positive end towards the G string (bass side) and the marked negative end towards the E string (treble side). Fix them in place on the PCB using a tiny drop of CA glue at each end.
 
     ![](./images/kakuhomaru-step-1.jpg)
 
 - Step 2: Solder the Shielded Cable & Insert the Conductive Foam
 
-    Carefully strip back the shielded cable to expose the positive core, and solder it to the through-hole for the positive connection on the PCB as illustrated. Solder the cable ground (the outer braided mesh) to the `GND` (ground) through-hole. Then, insert conductive foam into the 8 castellated holes, using approximately 5mm cubic pieces.
+    Strip back a small portion of the shielded cable to expose the central positive wire. Solder this wire to the positive through-hole on the PCB. Attach the braided mesh, which acts as the negative wire, to the `GND` (ground) through-hole. Then, insert conductive foam into the 8 castellated holes, using approximately 5mm cubic pieces.
 
     ![](./images/kakuhomaru-step-2.jpg)
 
@@ -57,7 +57,7 @@ For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately
 
     ![](./images/kakuhomaru-step-3.jpg)
 
-Once the assembly is complete, you may test the bridge assembly with an amplifier to ensure everything is functioning properly.
+🔊 Once the assembly is complete, you may test the bridge assembly with an amplifier to ensure everything is functioning properly.
 
 https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-cf757c91dd27
 

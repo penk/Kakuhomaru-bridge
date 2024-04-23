@@ -2,7 +2,7 @@
 
 ![](images/kakuhomaru-logo.jpg)
 
-The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, featuring a ‘one-sensor-per-string’ design that ensures each note is captured with clarity and richness.
+The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, designed with a ‘one-sensor-per-string’ approach to capture each note with unmatched clarity and richness.
 
 🔊 Listen to the open string sample here:
 
@@ -16,16 +16,16 @@ Each Kakuhomaru bridge is composed of 4 main parts:
 
 1. Piezoelectric rods and shielded cable (repurposed from a guitar under-saddle pickup).
 2. Custom printed circuit board (PCB) with castellated holes.
-3. Semi-rigid electronically conductive foam (I'm using [this one](https://www.distrelec.de/en/conductive-foam-305x305x6mm-rnd-rnd-600-00067/p/30130228) which has a `30 Ohm m` volume resistance).
+3. Semi-rigid electronically conductive foam (I'm using [this one](https://www.distrelec.de/en/conductive-foam-305x305x6mm-rnd-rnd-600-00067/p/30130228) which has a `30 ohm-meter (Ω·m)` volume resistance).
 4. 3D printable case (available in both [low profile](./case/kakuhomaru-case-lowp.stl) and [high profile](./case/kakuhomaru-case-highp.stl)). 
 
 While some parts may require a few days of lead time, the assembly is straightforward and DIY-friendly once all components are in hand.
 
 ## Ordering the PCB
 
-To get started with your custom PCB, upload the [production file](./production/kakuhomaru-bridge-gerbers.zip) to the PCB manufacturer of your choice, such as JLCPCB or PCBWay. Please ensure you select the option for `Castellated Holes` — this is vital for the functionality of our bridge pickup.
+To get started with your custom PCB, upload the [production file](./production/kakuhomaru-bridge-gerbers.zip) to your preferred PCB manufacturer, such as JLCPCB or PCBWay. Ensure you select `Castellated Holes`—essential for the functionality of our bridge pickup.
 
-Below are the settings I have used for this prototype: 
+Here are the specifications I used for our prototype:
 
 ```
 PCB Thickness: 1.6 mm 
@@ -35,19 +35,19 @@ Castellated Holes: Yes
 Edges: 2
 ```
 
-For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately $40. This information should help you estimate the budget for your own build.
+For reference, ordering 5pcs from JLCPCB cost approximately $40. This should help you budget for your build.
 
 ## Assembly Instructions 
 
-- Step 1: Glue the Piezoelectric Rods
+- Step 1: Attach the Piezoelectric Rods
 
-    Carefully slice open the heat shrink of the under-saddle pickup with a utility knife to retrieve the piezoelectric ceramics. Position the ceramics with the positive end towards the G string (bass side) and the marked negative end towards the E string (treble side). Fix them in place on the PCB using a tiny drop of CA glue at each end.
+    Carefully slice open the heat shrink tubing of the under-saddle pickup with a utility knife to retrieve the piezoelectric ceramics. Position the ceramics with the positive end towards the G string (bass side) and the marked negative end towards the E string (treble side). Fix them in place on the PCB using a tiny drop of CA glue at each end.
 
     ![](./images/kakuhomaru-step-1.jpg)
 
 - Step 2: Solder the Shielded Cable & Insert the Conductive Foam
 
-    Strip back a small portion of the shielded cable to expose the central positive wire. Solder this wire to the positive through-hole on the PCB. Attach the braided mesh, which acts as the negative wire, to the `GND` (ground) through-hole. Then, insert conductive foam into the 8 castellated holes, using approximately 5mm cubic pieces.
+    Strip back a small portion of the shielded cable to expose the central positive wire. Solder this wire to the positive through-hole on the PCB. Attach the braided mesh, which acts as the negative wire, to the `GND` (ground) through-hole. Then, insert conductive foam into the eight castellated holes, using approximately 5mm cubic pieces.
 
     ![](./images/kakuhomaru-step-2.jpg)
 
@@ -57,7 +57,7 @@ For reference, I ordered the PCB from JLCPCB: a batch of 5pcs cost approximately
 
     ![](./images/kakuhomaru-step-3.jpg)
 
-🔊 Once the assembly is complete, you may test the bridge assembly with an amplifier to ensure everything is functioning properly.
+🔊 Test the bridge assembly with an amplifier once you complete the assembly to ensure proper functionality.
 
 https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-cf757c91dd27
 
@@ -65,9 +65,9 @@ https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-c
 
 ![](./images/kakuhomaru-setup.jpg)
 
-The PCB is designed with a solid ground plane, eliminating the need for copper shielding tape. However, it is important to establish a grounding connection. This can be done by connecting the shielded cable to the tuning pegs (if applicable) or the strings, depending on your setup.
-
-For the bridge feet, proceed with your usual sanding process to ensure a proper fit. Additionally, mark the grooves along the edge of the PCB with a pencil to facilitate smooth sliding of the strings.
+- Shielding: There's no need for copper shielding tape due to the PCB's solid ground plane, which reduces interference.
+- Grounding: Establish a grounding connection by connecting the shielded cable to the tuning pegs (if applicable) or directly to the string ends, depending on your violin setup.
+- Bridge Shaping: Sand the bridge feet as you normally would and use a pencil to mark the grooves on the edge of the PCB for smooth string sliding.
 
 ## Further Customization
 

@@ -2,7 +2,7 @@
 
 ![](images/kakuhomaru-logo.jpg)
 
-The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, designed with a ‘one-sensor-per-string’ approach to capture each note with unmatched clarity and richness.
+The Kakuhomaru (角宝丸) bridge is a piezoelectric pickup for electric violins, designed with a ‘one-sensor-per-string’ approach to capture each note with clarity and richness.
 
 🔊 Listen to the open string sample here:
 

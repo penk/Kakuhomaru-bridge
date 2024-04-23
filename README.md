@@ -65,7 +65,7 @@ https://github.com/penk/Kakuhomaru-bridge/assets/61878/055f79b9-ad49-477b-b956-c
 
 ![](./images/kakuhomaru-setup.jpg)
 
-- Shielding: There's no need for copper shielding tape due to the PCB's solid ground plane, which reduces interference.
+- Shielding: There's no need for copper shielding tape due to the PCB's integrated ground plane, which reduces interference.
 - Grounding: Establish a grounding connection by connecting the shielded cable to the tuning pegs (if applicable) or directly to the string ends, depending on your violin setup.
 - Bridge Shaping: Sand the bridge feet as you normally would and use a pencil to mark the grooves on the edge of the PCB for smooth string sliding.
 

@@ -35,7 +35,7 @@ Castellated Holes: Yes
 Edges: 2
 ```
 
-For reference, ordering 5pcs from JLCPCB cost approximately $40. This should help you budget for your build.
+For reference, ordering 10pcs from JLCPCB cost approximately $40. This should help you budget for your build.
 
 ## Assembly Instructions 
 

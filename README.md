@@ -41,7 +41,7 @@ For reference, ordering 10pcs from JLCPCB cost approximately $40. This should he
 
 - Step 1: Attach the Piezoelectric Rods
 
-    Carefully slice open the heat shrink tubing of the under-saddle pickup with a utility knife to retrieve the piezoelectric ceramics. Position the ceramics with the positive end towards the G string (bass side) and the marked negative end towards the E string (treble side). Fix them in place on the PCB using a tiny drop of CA glue at each end.
+    Carefully slice open the heat shrink tubing of the under-saddle pickup with a utility knife to retrieve the piezoelectric ceramics. Position the ceramics with the positive end towards the  E string (treble side) and the marked negative end towards the G string (bass side) . Fix them in place on the PCB using a tiny drop of CA glue at each end.
 
     ![](./images/kakuhomaru-step-1.jpg)
 

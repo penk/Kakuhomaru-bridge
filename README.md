@@ -23,7 +23,7 @@ While some parts may require a few days of lead time, the assembly is straightfo
 
 ## Ordering the PCB
 
-To get started with your custom PCB, upload the [production file](./production/kakuhomaru-bridge-gerbers.zip) to your preferred PCB manufacturer, such as JLCPCB or PCBWay. Ensure you select `Castellated Holes`—essential for the functionality of our bridge pickup.
+To get started with your PCB order, upload the [production file](./production/kakuhomaru-bridge-gerbers.zip) to your preferred PCB manufacturer, such as JLCPCB or PCBWay. Ensure you select `Castellated Holes`—essential for the functionality of our bridge pickup.
 
 Here are the specifications I used for our prototype:
 
